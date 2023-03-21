@@ -117,7 +117,7 @@ int8_t TicTacToe::Move(int8_t position, int8_t player)
 
 int8_t TicTacToe::BestMove()
 {
-    int8_t bestMove;
+    int8_t bestMove = -1;
     int8_t score;
     int8_t bestScore = -16;
     uint16_t newBoard;
