@@ -1,1 +1,1 @@
-g++ -o bin/TestTicTacToe examples/TestTicTacToe.cpp src/TicTacToe.cpp -Wall -O3 
+g++ $1 src/* -o $2 -Wall -O3
